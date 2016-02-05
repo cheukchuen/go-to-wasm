@@ -12,4 +12,4 @@ Build:
 Clean:
   To remove the compiler build directory and other files, go to src directory and type "make clean".
 Run:
-  To run the compiler for a program, type "./run programs/foo/bar.min".
+  To run the compiler for a program, go to src directory and type "./run ../programs/foo/bar.min".
