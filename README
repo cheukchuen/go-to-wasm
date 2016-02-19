@@ -8,8 +8,13 @@ Name: Cheuk Chuen Siow
 Student ID: 260660584
 
 Build:
-  To build the compiler, go to src directory and type "make". (dependencies: menhir and ocamlfind)
+- To build the compiler, go to src directory and type "make". (dependencies: menhir, ocamlfind, ocamlbuild)
 Clean:
-  To remove the compiler build directory and other files, go to src directory and type "make clean".
+- To remove the compiler build directory and other files, go to src directory and type "make clean".
 Run:
-  To run the compiler for a program, go to src directory and type "./run ../programs/foo/bar.min".
+- To run the compiler for a program, go to src directory and type "./run <option> ../programs/foo/bar.go".
+- List of options: lex, parse, pretty
+
+Code viewed or used:
+- Milestone #1
+[1] Viewed regex for block comment (http://blog.ostermiller.org/find-comment)
