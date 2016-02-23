@@ -18,3 +18,7 @@ Run:
 Code viewed or used:
 - Milestone #1
 [1] Viewed regex for block comment (http://blog.ostermiller.org/find-comment)
+[2] Used code on stackoverflow to create dotests.sh
+    * http://stackoverflow.com/questions/4409399/padding-characters-in-printf
+    * http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
+    * http://stackoverflow.com/questions/6971284/what-are-the-error-exit-values-for-diff
