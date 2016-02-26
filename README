@@ -15,9 +15,14 @@ Run:
 - To run the compiler for a program, go to src directory and type "./run <option> ../programs/foo/bar.go".
 - List of options: lex, parse, pretty
 
-Code viewed or used:
-- Milestone #1
-[1] Viewed regex for block comment (http://blog.ostermiller.org/find-comment)
+Milestone #1
+- Valid programs:
+(1)
+(2)
+(3) programs/valid/checkOverlap.go
+- Code viewed or used:
+[1] Viewed regex for block comment
+    * http://blog.ostermiller.org/find-comment
 [2] Used code on stackoverflow to create dotests.sh
     * http://stackoverflow.com/questions/4409399/padding-characters-in-printf
     * http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
