@@ -27,3 +27,9 @@ Milestone #1
     * http://stackoverflow.com/questions/4409399/padding-characters-in-printf
     * http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
     * http://stackoverflow.com/questions/6971284/what-are-the-error-exit-values-for-diff
+[3] Viewed OCaml code for library information
+    * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Map.Make.html
+    * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Map.html
+    * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html
+    * https://ocaml.org/learn/tutorials/map.html
+    * http://ocaml-lib.sourceforge.net/doc/Option.html
