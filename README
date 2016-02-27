@@ -9,18 +9,29 @@ Student ID: 260660584
 
 Build:
 - To build the compiler, go to src directory and type "make". (dependencies: menhir, ocamlfind, ocamlbuild)
+
 Clean:
 - To remove the compiler build directory and other files, go to src directory and type "make clean".
+
 Run:
 - To run the compiler for a program, go to src directory and type "./run <option> ../programs/foo/bar.go".
 - List of options: lex, parse, pretty
 
+Run __our__ test suite:
+- Go to program/ and execute `dotests.sh [lex|parse|pretty]`
+
+
 Milestone #1
-- Valid programs:
+============
+
+Valid programs
+--------------
 (1) programs/valid/bitcount.go
 (2) programs/valid/ackermann.go
 (3) programs/valid/checkOverlap.go
-- Code viewed or used:
+
+Code viewed or used
+-------------------
 [1] Viewed regex for block comment
     * http://blog.ostermiller.org/find-comment
 [2] Used code on stackoverflow to create dotests.sh
@@ -33,3 +44,12 @@ Milestone #1
     * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html
     * https://ocaml.org/learn/tutorials/map.html
     * http://ocaml-lib.sourceforge.net/doc/Option.html
+    * http://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html
+[4] Golang specification
+    * https://golang.org/ref/spec
+[5] Code in the assignment (which we gladly pillaged)
+    * http://www.sable.mcgill.ca/~hendren/520/2016/assignments/syntax.pdf
+[6] Menhir's manual
+    * http://pauillac.inria.fr/~fpottier/menhir/manual.pdf
+    
+Some of the code in our test suite is directly taken from the specification and the assignement.
