@@ -17,8 +17,8 @@ Run:
 
 Milestone #1
 - Valid programs:
-(1)
-(2)
+(1) programs/valid/bitcount.go
+(2) programs/valid/ackermann.go
 (3) programs/valid/checkOverlap.go
 - Code viewed or used:
 [1] Viewed regex for block comment
