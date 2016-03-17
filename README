@@ -52,4 +52,28 @@ Code viewed or used
 [6] Menhir's manual
     * http://pauillac.inria.fr/~fpottier/menhir/manual.pdf
     
-Some of the code in our test suite is directly taken from the specification and the assignement.
+Some of the code in our test suite is directly taken from the specification and the assignment.
+
+
+Milestone #2
+============
+
+Invalid programs
+----------------
+(1) programs/invalid/types/
+(2) programs/invalid/types/
+(3) programs/invalid/types/
+(4) programs/invalid/types/
+(5) programs/invalid/types/
+(6) programs/invalid/types/
+(7) programs/invalid/types/
+(8) programs/invalid/types/
+(9) programs/invalid/types/
+(10) programs/invalid/types/
+
+Code viewed or used
+-------------------
+[7] Used code on stackoverflow to print the contents of a hash table
+    * http://stackoverflow.com/questions/4059978/converting-hash-table-to-list-of-pairs-key-value-in-ocaml
+[8] Viewed OCaml code for library information
+    * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Hashtbl.html
