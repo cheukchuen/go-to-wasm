@@ -76,16 +76,16 @@ Run __our__ test suite:
 
 Invalid programs
 ----------------
-(1) programs/invalid/types/
-(2) programs/invalid/types/
-(3) programs/invalid/types/
-(4) programs/invalid/types/
-(5) programs/invalid/types/
-(6) programs/invalid/types/
-(7) programs/invalid/types/
-(8) programs/invalid/types/
-(9) programs/invalid/types/
-(10) programs/invalid/types/
+(1) programs/invalid/types/1_functionDecl.go
+(2) programs/invalid/types/2_shortDeclaration.go
+(3) programs/invalid/types/3_opAssignment.go
+(4) programs/invalid/types/4_block.go
+(5) programs/invalid/types/5_forLoop.go
+(6) programs/invalid/types/6_switchStmt.go
+(7) programs/invalid/types/7_functionCall.go
+(8) programs/invalid/types/8_fieldSelection.go
+(9) programs/invalid/types/9_append.go
+(10) programs/invalid/types/10_typeCast.go
 
 Code viewed or used
 -------------------
