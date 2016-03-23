@@ -86,6 +86,7 @@ Invalid programs
 (8) programs/invalid/types/8_fieldSelection.go
 (9) programs/invalid/types/9_append.go
 (10) programs/invalid/types/10_typeCast.go
+(11) programs/invalid/types/11_typeRedeclaration.go
 
 Code viewed or used
 -------------------
