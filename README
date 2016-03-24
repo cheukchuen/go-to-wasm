@@ -69,10 +69,10 @@ Clean:
 - To remove the compiler build directory and other files, go to src/ and execute `make clean`.
 
 Run:
-- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|typecheck] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
+- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
 
 Run __our__ test suite:
-- Go to programs/ and execute `dotests.sh [lex|parse|weed|pretty|typecheck]`
+- Go to programs/ and execute `dotests.sh [lex|parse|weed|pretty|type]`
 
 Invalid programs
 ----------------
