@@ -70,6 +70,8 @@ Clean:
 
 Run:
 - To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
+- If no action is provided, it'll default to typecheck in this milestone.
+- If additional flags are set, the output file will be in the same directory as the input file.
 
 Run __our__ test suite:
 - Go to programs/ and execute `dotests.sh [lex|parse|weed|pretty|type]`
