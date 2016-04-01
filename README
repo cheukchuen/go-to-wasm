@@ -98,3 +98,5 @@ Code viewed or used
     * http://scylardor.fr/2013/10/14/ocaml-parsing-a-programs-arguments-with-the-arg-module/
 [9] Viewed OCaml code for library information
     * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Hashtbl.html
+[10] Viewed webassembly readme for information on webassmbly constructs
+    * https://github.com/WebAssembly/spec/blob/master/ml-proto/README.md
