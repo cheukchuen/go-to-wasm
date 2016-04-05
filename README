@@ -100,3 +100,35 @@ Code viewed or used
     * http://caml.inria.fr/pub/docs/manual-ocaml/libref/Hashtbl.html
 [10] Viewed webassembly readme for information on webassmbly constructs
     * https://github.com/WebAssembly/spec/blob/master/ml-proto/README.md
+
+
+Milestone #3
+============
+
+Instructions
+------------
+Build:
+- To build the compiler, go to src/ and execute `make`. (dependencies: menhir, ocamlfind, ocamlbuild)
+
+Clean:
+- To remove the compiler build directory and other files, go to src/ and execute `make clean`.
+
+Run:
+- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type|compile] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
+- If no action is provided, it'll default to code generation in this milestone.
+- If additional flags are set, the output file will be in the same directory as the input file.
+
+Run __our__ test suite:
+- Go to programs/ and execute `dotests.sh [lex|parse|weed|pretty|type]`
+
+Benchmark programs
+----------------
+(1) programs/benchmark/ackermann.go
+(2) programs/benchmark/fibonacci.go
+(3) programs/benchmark/prime.go
+
+Code viewed or used
+-------------------
+[11] Viewed WebAssembly specification and design documentation for information on WebAssembly constructs
+    * https://github.com/WebAssembly/spec/blob/master/ml-proto/README.md
+    * https://github.com/WebAssembly/design/blob/master/AstSemantics.md
