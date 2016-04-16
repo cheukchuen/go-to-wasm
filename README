@@ -69,7 +69,7 @@ Clean:
 - To remove the compiler build directory and other files, go to src/ and execute `make clean`.
 
 Run:
-- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
+- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type] [-dumpsymtab] [-pptype] <path_to_programs>/foo/bar.go`.
 - If no action is provided, it'll default to typecheck in this milestone.
 - If additional flags are set, the output file will be in the same directory as the input file.
 
@@ -114,7 +114,7 @@ Clean:
 - To remove the compiler build directory and other files, go to src/ and execute `make clean`.
 
 Run:
-- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type|compile] [-dumpsymtab] [-pptype] [<path_to_programs>/foo/bar.go]`.
+- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type|compile] [-dumpsymtab] [-pptype] <path_to_programs>/foo/bar.go`.
 - If no action is provided, it'll default to code generation in this milestone.
 - If additional flags are set, the output file will be in the same directory as the input file.
 
@@ -123,6 +123,57 @@ Run __our__ test suite:
 
 Benchmark programs
 ----------------
+(1) programs/benchmark/ackermann.go
+(2) programs/benchmark/fibonacci.go
+(3) programs/benchmark/prime.go
+
+Code viewed or used
+-------------------
+[11] Viewed WebAssembly specification and design documentation for information on WebAssembly constructs
+    * https://github.com/WebAssembly/spec/blob/master/ml-proto/README.md
+    * https://github.com/WebAssembly/design/blob/master/AstSemantics.md
+
+
+Milestone #4
+============
+
+Instructions
+------------
+Build:
+- To build the compiler, go to src/ and execute `make`. (dependencies: menhir, ocamlfind, ocamlbuild)
+
+Clean:
+- To remove the compiler build directory and other files, go to src/ and execute `make clean`.
+
+Run:
+- To run the compiler for a program, execute `<path_to_src>/main.native [lex|parse|weed|pretty|type|compile] [-dumpsymtab] [-pptype] [-h] [-v] <path_to_programs>/foo/bar.go`.
+- If no action is provided, it'll default to code generation in this milestone.
+- If additional flags are set, the output file will be in the same directory as the input file.
+
+Run __our__ test suite:
+- Go to programs/ and execute `dotests.sh [lex|parse|weed|pretty|type]`
+
+Valid programs
+--------------
+(1) programs/valid/bitcount.go
+(2) programs/valid/checkOverlap.go
+
+Invalid programs
+----------------
+(1) programs/invalid/types/1_functionDecl.go
+(2) programs/invalid/types/2_shortDeclaration.go
+(3) programs/invalid/types/3_opAssignment.go
+(4) programs/invalid/types/4_block.go
+(5) programs/invalid/types/5_forLoop.go
+(6) programs/invalid/types/6_switchStmt.go
+(7) programs/invalid/types/7_functionCall.go
+(8) programs/invalid/types/8_fieldSelection.go
+(9) programs/invalid/types/9_append.go
+(10) programs/invalid/types/10_typeCast.go
+(11) programs/invalid/types/11_typeRedeclaration.go
+
+Benchmark programs
+------------------
 (1) programs/benchmark/ackermann.go
 (2) programs/benchmark/fibonacci.go
 (3) programs/benchmark/prime.go
